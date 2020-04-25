@@ -1,0 +1,17 @@
+config: 
+   value: The default value 1
+   appname: Configuration Client
+   list: 
+      values: one, two, three
+      
+geeting: 
+   value: Greeting from ${config.appname} Application.
+
+db:
+   connectionvalues: "{connectionString: 'http: //somedb.com', userName: 'avirajv', password: 'PASSWORD'}"
+   host: 1.0.0.8
+   port: 1200
+
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test
