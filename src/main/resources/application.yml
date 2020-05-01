@@ -5,7 +5,7 @@ config:
    value: The default value 1
    appname: Configuration Client
    list: 
-      values: one, two, three, four
+      values: one, two, three, four, five
       
 geeting: 
    value: Greeting from ${config.appname} Application.
