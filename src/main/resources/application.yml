@@ -1,3 +1,6 @@
+server:
+  port : 8484
+
 config: 
    value: The default value 1
    appname: Configuration Client
