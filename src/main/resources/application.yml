@@ -2,7 +2,7 @@ server:
   port : 8484
 
 config: 
-   value: The default value 1
+   value: The default value 2
    appname: Configuration Client
    list: 
       values: one, two, three, four, five
