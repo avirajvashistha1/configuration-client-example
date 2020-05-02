@@ -2,10 +2,10 @@ server:
   port : 8484
 
 config: 
-   value: The default value 2
+   value: The default value 4
    appname: Configuration Client
    list: 
-      values: one, two, three, four, five
+      values: one, two, three, four, five, Six, Seven
       
 geeting: 
    value: Greeting from ${config.appname} Application.
